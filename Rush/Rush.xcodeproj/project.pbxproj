@@ -17,6 +17,7 @@
 		FA1A2C1D1E822260008D16F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1A2C1B1E822260008D16F4 /* LaunchScreen.storyboard */; };
 		FA1A2C281E822260008D16F4 /* RushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1A2C271E822260008D16F4 /* RushTests.swift */; };
 		FA1A2C331E822260008D16F4 /* RushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1A2C321E822260008D16F4 /* RushUITests.swift */; };
+		FA1A2C411E82406D008D16F4 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA1A2C401E82406D008D16F4 /* LLPIXEL3.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FA1A2C2E1E822260008D16F4 /* RushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1A2C321E822260008D16F4 /* RushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RushUITests.swift; sourceTree = "<group>"; };
 		FA1A2C341E822260008D16F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1A2C401E82406D008D16F4 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		FA1A2C0B1E822260008D16F4 /* Rush */ = {
 			isa = PBXGroup;
 			children = (
+				FA1A2C401E82406D008D16F4 /* LLPIXEL3.ttf */,
 				FA1A2C0C1E822260008D16F4 /* AppDelegate.swift */,
 				FA1A2C0E1E822260008D16F4 /* GameScene.sks */,
 				FA1A2C101E822260008D16F4 /* Actions.sks */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1A2C181E822260008D16F4 /* Main.storyboard in Resources */,
+				FA1A2C411E82406D008D16F4 /* LLPIXEL3.ttf in Resources */,
 				FA1A2C0F1E822260008D16F4 /* GameScene.sks in Resources */,
 				FA1A2C1A1E822260008D16F4 /* Assets.xcassets in Resources */,
 				FA1A2C1D1E822260008D16F4 /* LaunchScreen.storyboard in Resources */,
@@ -530,6 +534,7 @@
 				FA1A2C391E822260008D16F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA1A2C3A1E822260008D16F4 /* Build configuration list for PBXNativeTarget "RushTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +543,7 @@
 				FA1A2C3C1E822260008D16F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA1A2C3D1E822260008D16F4 /* Build configuration list for PBXNativeTarget "RushUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +552,7 @@
 				FA1A2C3F1E822260008D16F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
