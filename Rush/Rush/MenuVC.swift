@@ -37,9 +37,12 @@ enum gameType {
 
 class MenuVC: UIViewController {
     
+    @IBOutlet weak var player2Btn: UIButton!
+    
     override func viewDidLoad() {
         self.navigationController?.navigationBar.isHidden = true
-        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+//        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+        
     }
     
     @IBAction func Player2(_ sender: Any) {
