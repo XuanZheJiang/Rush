@@ -97,19 +97,36 @@
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lc-L1-Cm7">
+                                <rect key="frame" x="172.5" y="321" width="30" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="0mC-fb-aHj"/>
+                                    <constraint firstAttribute="height" constant="25" id="pgh-aH-7iG"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Pop"/>
+                                <connections>
+                                    <action selector="popMenu:" destination="BV1-FR-VrT" eventType="touchUpInside" id="r7L-HQ-buf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0lc-L1-Cm7" firstAttribute="centerY" secondItem="3se-qz-xqx" secondAttribute="centerY" id="7cU-Pl-Oz9"/>
+                            <constraint firstItem="0lc-L1-Cm7" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="pnj-eQ-tPc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="786" y="135"/>
+            <point key="canvasLocation" x="784.79999999999995" y="134.48275862068968"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Wbl-hm-bJh">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vhG-2I-jKz" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="vhG-2I-jKz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="LvD-R3-J3H">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LvD-R3-J3H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -123,4 +140,7 @@
             <point key="canvasLocation" x="-818.39999999999998" y="136.28185907046478"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Pop" width="48" height="50"/>
+    </resources>
 </document>

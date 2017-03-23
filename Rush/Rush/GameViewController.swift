@@ -38,6 +38,10 @@ class GameViewController: UIViewController {
         return true
     }
 
+    @IBAction func popMenu(_ sender: UIButton) {
+        _ = self.navigationController?.popViewController(animated: true)
+    }
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
             return .allButUpsideDown

@@ -40,7 +40,7 @@ class MenuVC: UIViewController {
     @IBOutlet weak var player2Btn: UIButton!
     
     override func viewDidLoad() {
-        self.navigationController?.navigationBar.isHidden = true
+//        self.navigationController?.navigationBar.isHidden = true
 //        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
         
     }
