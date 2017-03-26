@@ -99,12 +99,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lc-L1-Cm7">
-                                <rect key="frame" x="172.5" y="321" width="30" height="25"/>
+                                <rect key="frame" x="172.5" y="321.5" width="30" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="0mC-fb-aHj"/>
                                     <constraint firstAttribute="height" constant="25" id="pgh-aH-7iG"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="Pop"/>
+                                <state key="normal" backgroundImage="exit"/>
                                 <connections>
                                     <action selector="popMenu:" destination="BV1-FR-VrT" eventType="touchUpInside" id="r7L-HQ-buf"/>
                                 </connections>
@@ -141,6 +141,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pop" width="48" height="50"/>
+        <image name="exit" width="30" height="30"/>
     </resources>
 </document>
